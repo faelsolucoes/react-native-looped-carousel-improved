@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import {
+  View,
+  Text,
   Platform,
   StyleSheet,
-  Text,
   ScrollView,
+  ViewPropTypes,
   TouchableOpacity,
-  View,
   TouchableWithoutFeedback,
 } from 'react-native';
 import PropTypes from 'prop-types';
